@@ -64,6 +64,7 @@ void displayIntro() {
   }
   delay(500);
   cls();
+  //Essa parte não funcionou como eu esperava
   // Text scrolls down
   //   M5Cardputer.Display.setTextColor(GREEN);
   //   M5Cardputer.Display.setTextSize(2); // Reduce text size
