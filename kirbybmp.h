@@ -1,3 +1,20 @@
+/**
+ * @file RFIDCopy-M5Cardputer.ino
+ * @author Mateus Fonseca
+ * @brief https://github.com/MateusRodriguesF/RFID_KIRBY_M5CARDPUTER
+ * @version 1.0
+ * @date 05-05-2024
+ *
+ * @Hardwares: M5Cardputer
+ * @Platform Version: Arduino M5Stack Board Manager
+ * @Dependent Library:
+ * M5GFX: https://github.com/m5stack/M5GFX
+ * M5Unified: https://github.com/m5stack/M5Unified
+ * WIRE: 
+ * MFRC522_I2C: 
+ * M5Cardputer: https://github.com/m5stack/M5Cardputer
+ **/
+
 #include <pgmspace.h>
 
 // kirby.bmp
