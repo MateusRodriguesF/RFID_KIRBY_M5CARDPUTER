@@ -1,39 +1,39 @@
 # RFID-KIRBY
 
-Este é um projeto que envolve a leitura e gravação de cartões RFID usando o M5Cardputer e o módulo RFID2.
+This is a project involving reading and writing RFID cards using the M5Cardputer and the RFID2 module.
 
-## Sobre
+## About
 
-Este código foi criado por Mateus Fonseca em 2024 para o projeto RFID-KIRBY.
+This code was created by Mateus Fonseca in 2024 for the RFID-KIRBY project.
 
-## Dependências
+## Dependencies
 
-- **Wire.h**: Biblioteca para comunicação I2C.
-- **MFRC522_I2C.h**: Biblioteca para o módulo RFID2.
-- **kirbybmp.h**: Arquivo de bitmap para a tela inicial.
-- **M5Cardputer.h**: Biblioteca para o M5Cardputer.
-- **SD.h**: Biblioteca para comunicação com o cartão SD.
+- **Wire.h**: Library for I2C communication.
+- **MFRC522_I2C.h**: Library for the RFID2 module.
+- **kirbybmp.h**: Bitmap file for the boot screen.
+- **M5Cardputer.h**: Library for the M5Cardputer.
+- **SD.h**: Library for communication with the SD card.
 
-## Funcionalidades
+## Features
 
-- **Modo de Leitura**: Permite ler informações de cartões RFID.
-- **Modo de Escrita**: Permite gravar informações em cartões RFID.
-- **Botão TAB**: Alterna entre os modos de leitura e escrita.
+- **Read Mode**: Allows reading information from RFID cards.
+- **Write Mode**: Allows writing information to RFID cards.
+- **TAB Button**: Toggles between read and write modes.
 
-## Configuração Inicial
+## Initial Setup
 
-- A tela é inicializada com uma imagem de boot do Kirby.
-- O programa exibe a versão e o nome do aplicativo.
-- Inicializa o módulo RFID2.
-- Inicializa o cartão SD.
-- 
-## Como Usar
+- The screen is initialized with a boot image of Kirby.
+- The program displays the version and name of the application.
+- Initializes the RFID2 module.
+- Initializes the SD card.
 
-- No modo de leitura, segure um cartão RFID próximo ao leitor para visualizar as informações do cartão.
-- No modo de escrita, as informações lidas anteriormente serão gravadoas no cartão, segure o cartão próximo ao leitor para gravá-las.
-- Use o botão TAB para alternar entre os modos de leitura e escrita.
+## How to Use
 
-## Notas
+- In read mode, hold an RFID card near the reader to view the card's information.
+- In write mode, the previously read information will be written to the card, hold the card near the reader to write it.
+- Use the TAB button to toggle between read and write modes.
 
-- Certifique-se de que o modulo RFID2 esteja devidamente inserido.
-- Este código é específico para o M5Cardputer e o módulo RFID2.
+## Notes
+
+- Make sure the RFID2 module is properly inserted.
+- This code is specific to the M5Cardputer and the RFID2 module.
